@@ -122,7 +122,7 @@ export function Login({ onBack }: LoginProps) {
             >
               <div className="auth-button-content">
                 <Image
-                  src="icons/google-fill.svg"
+                  src="/Icons/google.png"
                   alt="Google"
                   width={20}
                   height={20}
