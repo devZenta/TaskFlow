@@ -8,7 +8,8 @@ import {
   BarChart2, 
   Boxes,
   Shield,
-  Zap
+  Zap,
+  Users
 } from 'lucide-react';
 
 const features = [
@@ -46,6 +47,11 @@ const features = [
     icon: <Zap className="w-6 h-6 text-amber-400" />,
     title: "Fast Integration",
     description: "Quick setup with popular tools like GitHub, Slack, and Jira"
+  },
+  {
+    icon: <Users className="w-6 h-6 text-blue-400" />,
+    title: "Team Collaboration",
+    description: "Collaborate with your team in real-time with shared project boards and tasks"
   }
 ];
 

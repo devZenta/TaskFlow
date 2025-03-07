@@ -4,21 +4,23 @@ import React from 'react';
 import { Check } from 'lucide-react';
 
 const betaFeatures = [
-  "Unlimited AI Project Assistant Usage",
-  "Real-time Project Analytics",
-  "Smart Timeline Generation",
-  "Unlimited Team Members",
-  "Priority Support",
-  "Early Access to New Features"
+  "Access to AI Assistant (Limited Usage)",
+  "Basic Project Analytics",
+  "Timeline Generation",
+  "Up to 5 Team Members",
+  "Email Support",
+  "Early Accesss"
 ];
 
 const premiumFeatures = [
-  "Unlimited AI Project Assistant Usage",
-  "Real-time Project Analytics",
+  "Unlimited AI Assistant Usage",
+  "Advanced Project Analytics",
   "Smart Timeline Generation",
-  "Up to 10 Team Members",
-  "Standard Support",
-  "Regular Feature Updates"
+  "Up to 20 Team Members",
+  "Priority Email and Chat Support",
+  "Access to All New Features",
+  "Customizable Workflows",
+  "Enhanced Security Features"
 ];
 
 export function Pricing() {
