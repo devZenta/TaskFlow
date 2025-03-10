@@ -1,4 +1,5 @@
 'use client';
+import JoinNowButton from "./JoinNowButton";
 
 //import { FlipWords } from "../ui/flip-words";
 
@@ -16,9 +17,7 @@ export function Header() {
           </p>
           {/*<FlipWords words={["task", "project", "team"]} duration={3000} className="inline" />*/}
           <div className="flex gap-6 justify-center">
-            <button className="px-8 py-4 rounded-lg bg-transparent text-white text-lg font-semibold hover:bg-purple-600/10 transition-all duration-300 hover:scale-105 border-2 border-purple-600 hover:border-purple-400">
-              Get Started
-            </button>
+            <JoinNowButton />
           </div>
         </div>
       </div>
