@@ -1,7 +1,5 @@
 "use client";
 
-import React from 'react';
-
 export function Footer() {
   return (
     <footer className="bg-[#030014] border-t border-white/10 p-4">

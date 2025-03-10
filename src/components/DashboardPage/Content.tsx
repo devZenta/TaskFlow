@@ -1,6 +1,5 @@
 "use client";
 
-import React from 'react';
 import { Widget } from './Widget';
 import { Notifications } from './Notifications';
 
@@ -21,7 +20,7 @@ export function Content() {
           <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
             Welcome Back
           </h2>
-          <p className="text-white/60">Here's what's happening with your projects today.</p>
+          <p className="text-white/60">Here&apos;s what&apos;s happening with your projects today.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">

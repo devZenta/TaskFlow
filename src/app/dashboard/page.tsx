@@ -1,8 +1,5 @@
 'use client';
 
-import Image from "next/image"
-import Link from "next/link"
-import React from 'react';
 import { Header } from '@/components/DashboardPage/Header';
 import { Sidebar } from '@/components/DashboardPage/Sidebar';
 import { Content } from '@/components/DashboardPage/Content';

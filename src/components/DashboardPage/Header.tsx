@@ -1,7 +1,5 @@
 "use client";
 
-import React from 'react';
-
 export function Header() {
   return (
     <header className="bg-[#030014] border-b border-white/10 p-4 backdrop-blur-sm">

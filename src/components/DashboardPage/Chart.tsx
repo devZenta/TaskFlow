@@ -1,6 +1,5 @@
 "use client";
 
-import React from 'react';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -11,6 +10,8 @@ import {
   Title,
   Tooltip,
   Legend,
+  ChartData,
+  ChartOptions,
 } from 'chart.js';
 
 // Register ChartJS components
@@ -25,8 +26,8 @@ ChartJS.register(
 );
 
 interface DashboardChartProps {
-  data: any;
-  options: any;
+  data: ChartData<'line'>;
+  options: ChartOptions<'line'>;
 }
 
 export function Chart({ data, options }: DashboardChartProps) {
