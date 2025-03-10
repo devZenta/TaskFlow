@@ -5,6 +5,7 @@ import { ChevronDown } from "lucide-react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
+import SignInButton from "./SignInButton";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -31,11 +32,6 @@ export function Navbar() {
   ];
 
   const learnMoreDropdown = [
-    {
-      name: "Demo",
-      description: "See how AI transforms your project management.",
-      id: "demo-section",
-    },
     {
       name: "Features",
       description: "Discover our AI-powered project tools.",
@@ -132,12 +128,7 @@ export function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
-              <Link
-                href="/login"
-                className="px-4 py-2 rounded-md bg-gradient-to-r from-violet-500 to-purple-600 text-white font-medium hover:from-violet-600 hover:to-purple-700 transition-colors"
-              >
-                Sign In
-              </Link>
+              <SignInButton />
             )}
           </div>
         </div>
