@@ -18,11 +18,7 @@ const features = [
     title: "AI Project Assistant",
     description: "Chat with AI to plan, track, and manage your projects effortlessly"
   },
-  {
-    icon: <MessageSquareCode className="w-6 h-6 text-green-400" />,
-    title: "Code Integration",
-    description: "Seamless integration with your development workflow and repositories"
-  },
+  
   {
     icon: <GitBranch className="w-6 h-6 text-yellow-400" />,
     title: "Issue Tracking",
@@ -38,16 +34,8 @@ const features = [
     title: "Custom Workflows",
     description: "Adaptable project templates and automated workflow creation"
   },
-  {
-    icon: <Shield className="w-6 h-6 text-emerald-400" />,
-    title: "Security First",
-    description: "Enterprise-grade security with encrypted project data"
-  },
-  {
-    icon: <Zap className="w-6 h-6 text-amber-400" />,
-    title: "Fast Integration",
-    description: "Quick setup with popular tools like GitHub, Slack, and Jira"
-  },
+  
+  
   {
     icon: <Users className="w-6 h-6 text-blue-400" />,
     title: "Team Collaboration",
