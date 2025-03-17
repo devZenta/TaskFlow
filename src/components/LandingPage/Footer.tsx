@@ -63,9 +63,9 @@ export function Footer() {
           </div>
 
           {/* Right Side - Links & Social */}
-          <div className="md:text-right">
+          <div className="md:text-center">
             <div className="space-y-4">
-              <div className="flex gap-4 md:justify-end">
+              <div className="flex gap-4 md:justify-center">
                 <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Github className="w-6 h-6" />
                 </a>
