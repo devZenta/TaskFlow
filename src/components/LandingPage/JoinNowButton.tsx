@@ -6,7 +6,7 @@ const JoinNowButton = () => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push('/register'); 
+    router.push('/register'); // Navigate to register page
   };
 
   return (
