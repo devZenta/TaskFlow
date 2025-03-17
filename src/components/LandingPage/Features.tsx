@@ -40,7 +40,29 @@ const features = [
     icon: <Users className="w-6 h-6 text-blue-400" />,
     title: "Team Collaboration",
     description: "Collaborate with your team in real-time with shared project boards and tasks"
-  }
+  },
+ 
+ 
+  {
+    icon: <MessageSquareCode className="w-6 h-6 text-pink-400" />,
+    title: "Share with your Friends",
+    description: "Share your projects with friends and colleagues for easy collaboration"
+  },
+  
+  
+  {
+    icon: <Zap className="w-6 h-6 text-orange-400" />,
+    title: "Fast Automation",
+    description: "Automate repetitive tasks and streamline project management workflows"
+  },
+  
+  
+  {
+    icon: <Shield className="w-6 h-6 text-green-400" />,
+    title: "Fully Secure",
+    description: "End-to-end encryption and secure data storage for your projects"
+  },
+  
 ];
 
 export function Features() {
